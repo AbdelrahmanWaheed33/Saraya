@@ -23,7 +23,7 @@
       );
     })(),
     passWord: tmpArgs.pwd,
-    leaveUrl: "h ttps://www.sampleposts.com/wp-content/uploads/2020/03/get-well-soon-message.jpg",
+    leaveUrl: "https://www.sampleposts.com/wp-content/uploads/2020/03/get-well-soon-message.jpg",
     role: parseInt(tmpArgs.role, 10),
     userEmail: (function () {
       try {
