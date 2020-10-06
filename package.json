@@ -7,7 +7,7 @@
     "@zoomus/websdk": "^1.8.1"
   },
   "devDependencies": {
-    "concurrently": "^4.1.0",
+    "concurrently": "3.6.1",
     "http-server": "^0.12.1"
   },
   "scripts": {
