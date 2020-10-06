@@ -243,22 +243,48 @@
                     <option value="it-IT">Italian italiano</option>
                 </select>
             </div>
-        <div class="col span-3-of-3">
-            <input type="text" style="    width: 310px; " name="display_name" id="display_name" value="patient" maxLength="100"
+            <div class="row">
+                <div class="col span-1-of-3" >
+            
+                    <label for="display_name">User Name</label>
+    
+                </div>  
+        <div class="col span-2-of-3">
+                  
+                 <input type="text" style="    width: 310px; " name="display_name" id="display_name" value="patient" maxLength="100"
                 placeholder="Name"  required>
         </div>
-        <div class="col span-3-of-3">
+    </div>
+    <div class="row">
+        <div class="col span-1-of-3">
+            <label for="meeting_number">Meeting Number</label>
+        </div>
+        <div class="col span-2-of-3">
+      
             <input type="text"  style="    width: 310px;" name="meeting_number" id="meeting_number" value="" maxLength="200"
                 style="width:150px" placeholder="Meeting Number"  required>
         </div>
-        <div class="col span-3-of-3">
+    </div>
+    <div class="row">
+        <div class="col span-1-of-3">
+            <label for="meeting_pwd">Meeting Password</label>
+
+        </div>
+        <div class="col span-2-of-3">
             <input type="text"  style="    width: 310px;" name="meeting_pwd" id="meeting_pwd" value="" style="width:150px"
                 maxLength="32" placeholder="Meeting Password" >
         </div>
-        <div class="col span-3-of-3">
+    </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <label for="meeting_email">Email option</label>
+
+            </div>
+        <div class="col span-2-of-3">
             <input type="text"  style="    width: 310px;" name="meeting_email" id="meeting_email" value="" style="width:150px"
                 maxLength="32" placeholder="Email option">
         </div>
+     </div>
         <!-- <button type="submit" class="btn btn-orange" id="join_meeting">Join</button> -->
         <div class="col span-3-of-3">
             <input id="join_meeting" style="color: white; background-color: #e67e22;" type="submit" value="Join">

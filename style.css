@@ -228,7 +228,7 @@ input[type=submit] {
     width: 60%;
     /* margin: 0 0; */
     margin-left: 100px !important;
-    float: right;
+    float: left;
 }
 
 input[type=text],
@@ -351,9 +351,7 @@ footer p {
         background-color: rgb(243, 243, 243);
     }
     
-    .section-features .long-copy {
-        /* margin-bottom: 30px; */
-    }
+ 
     h2 {
         font-size: 25px;
         word-spacing: 2px;
