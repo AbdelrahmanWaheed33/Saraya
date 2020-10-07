@@ -1,8 +1,8 @@
 (function () {
   var testTool = window.testTool;
-  if (testTool.isMobileDevice()) {
-    vConsole = new VConsole();
-  }
+  // if (testTool.isMobileDevice()) {
+  //   vConsole = new VConsole();
+  // }
   console.log("checkSystemRequirements");
   console.log(JSON.stringify(ZoomMtg.checkSystemRequirements()));
 
