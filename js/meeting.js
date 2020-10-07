@@ -39,7 +39,8 @@
 
   // a tool use debug mobile device
   // if (testTool.isMobileDevice()) {
-  //   vConsole = new VConsole();
+    // meetingConfig.leaveUrl="https://images.unsplash.com/photo-1469545665372-3c2707903203?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+    // vConsole = new VConsole();
   // }
   console.log(JSON.stringify(ZoomMtg.checkSystemRequirements()));
 
