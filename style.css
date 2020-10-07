@@ -232,7 +232,9 @@ input[type=submit] {
   width: 60%;
   /* margin: 0 0; */
   /* margin-left: 100px !important; */
-  float: left;
+  justify-content: center;
+  text-align: center;
+
 }
 
 input[type="text"],
@@ -433,11 +435,13 @@ footer p {
     margin-left: 120px;
   }
   .contact-form {
+      /* margin-left: 150px; */
     width: 40%;
     /* margin: 0 0; */
     /* margin-right: 100px !important; */
     /* margin-left: 100px !important; */
-    float: left;
+    justify-content: center;
+    text-align: center;
   }
   /* .iframe{
         border:none;   
